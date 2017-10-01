@@ -51,11 +51,11 @@ var bio = {
 			var formattedwelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 			$( "#header" ).append( formattedwelcomeMessage );
 			
-			var formattedskills = HTMLskillsStart.replace("%data%", bio.skills);
+			var formattedskillsStart = HTMLskillsStart.replace("%data%", bio.skills);
 			$( "#header" ).append( formattedskills );
 		
 		for (i = 0; i < bio.skills.length; i++) { 
-    var formattedskills = HTMLskills.replace("%data%", bio.skills[i]);
+    	var formattedskills = HTMLskills.replace("%data%", bio.skills[i]);
 			$( "#header" ).append( formattedskills );
 			}
 	
