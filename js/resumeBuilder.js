@@ -52,7 +52,7 @@ var bio = {
 			$( "#header" ).append( formattedwelcomeMessage );
 			
 			var formattedskillsStart = HTMLskillsStart.replace("%data%", bio.skills);
-			$( "#header" ).append( formattedskills );
+			$( "#header" ).append( formattedskillsStart );
 		
 		for (i = 0; i < bio.skills.length; i++) { 
     	var formattedskills = HTMLskills.replace("%data%", bio.skills[i]);
